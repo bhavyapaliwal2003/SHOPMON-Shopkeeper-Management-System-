@@ -1,0 +1,78 @@
+/* Header styles */
+
+header {
+    background-color: #ffffff;
+    color: #2c3e50;
+    padding: 1em 2em;
+    border-bottom: 1px solid #e9ecef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Navbar brand */
+  
+  .navbar-brand {
+    text-decoration: none;
+    color: #2c3e50;
+    font-size: 1.5em;
+  }
+  
+  /* Username heading */
+  
+  h1 {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+
+  
+  .navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-item {
+    display: inline-block;
+    margin-right: 1em;
+  }
+  
+  .nav-link {
+    color: #2c3e50;
+    padding: 0.5em 1em;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  li{
+    list-style: none;
+    padding-right: 10px;
+  }
+
+
+
+  /* footer  */
+
+
+  footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1em;
+  }
+  
+  footer p {
+    margin-bottom: 0;
+  }
+  
+  footer a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  
